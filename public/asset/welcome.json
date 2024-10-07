@@ -1,0 +1,16 @@
+{
+  "title": "Chào mừng bạn tới X-Profile!",
+  "description": "X-Profile không đơn thuần là một nền tảng tuyển dụng hay trang khóa học trực tuyến.",
+  "cards": [
+    {
+      "title": "Bắt đầu hành trình",
+      "description": "Bắt đầu tìm hiểu chi tiết các khóa học, nghề nghiệp tại X-Profile",
+      "button": "Khám phá"
+    },
+    {
+      "title": "Tìm hiểu lộ trình",
+      "description": "Nếu bạn vẫn chưa biết bắt đầu từ đâu, hãy xem  tutorial để khám phá lộ tình nghề nghiệp nhé",
+      "button": "Xem tutorial"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "profileCompany": {
+    "titleHead": "Thông tin công ty",
+    "titleInformation": "Thông tin công ty",
+    "titleMoreButton": "Xem thêm",
+    "titleMapButton": "Xem bản đồ",
+    "titleMoreInformationButton": "Xem thêm thông tin",
+    "titleCulture": "Hình ảnh văn hóa doanh nghiệp",
+    "titleWorkDay": "Một ngày làm việc tại công ty",
+    "titleTeams": "Các team",
+    "titleTeam": "Các phòng ban trong",
+    "titleDemandSkills": "Learn In-demand Skills",
+    "titleRecruit": "Các vị trí đang tuyển dụng",
+    "titleQuestions": "<p>Các câu hỏi <br/>thường gặp</p>",
+    "descriptionWorkDay": "Công ty luôn cố gắng đem đến một môi trường làm việc thân thiện, văn hóa phong cách, sôi động, để công ty không chỉ là nơi làm việc mà là nơi có các hoạt động ngoài công việc đầy thú vị và hấp dẫn",
+    "titleEmptyRecruitment": "Hiện chưa có vị trí tuyển dụng nổi bật nào"
+  },
+  "detailCompany": {
+    "titleDetailHead": "Thông tin chi tiết",
+    "titleIntroduceTeam": "Đôi nét về Team",
+    "titleFactsContent": "Những sự thật thú vị",
+    "titleSkillContent": "Kỹ năng",
+    "titleMeetingDetail": "Gặp gỡ"
+  },
+  "jobDetail": {
+    "titleJobdDetailHead": "Thông tin chi tiết công việc",
+    "titleGenaralSkillsJob": "Kỹ năng chung cần thiết",
+    "descriptionGenaralSkillsJob": "Yêu cầu kỹ năng chung cần có để đáp ứng công việc này",
+    "titleAdvancedSkillsJob": "Kỹ năng chuyên môn cần thiết",
+    "descriptionAdvancedSkillsJob": "Yêu cầu về chuyên môn cần có để đáp ứng công việc này",
+    "titleNotiSkillProfessional": "Kỹ năng đang chờ được cập nhật ...",
+    "titleJobDescription": "Mô tả công việc",
+    "titleRelevance": "Mức độ phù hợp:",
+    "titleRelevanceButton": "Ứng tuyển ngay",
+    "descriptionRelevance": "Cập nhật hồ sơ cá nhân để xem mức độ phù hợp của bạn với công việc này.",
+    "titleDescriptionRelevanceButton": "Cập nhật ngay",
+    "titleApplyJob": "Quan tâm đến công việc này? Ứng tuyển vào",
+    "day": "ngay hôm nay!",
+    "titleApplyButton": "Ứng tuyển ngay",
+    "titleNewPaper": "Đừng bỏ lỡ những tin tức hấp dẫn!",
+    "descriptionNewPaper1": "Đăng ký",
+    "descriptionNewPaper2": "để nhận thông báo việc làm, tin tức mới nhất và cập nhật.",
+    "titleFollowButton": "Theo dõi",
+    "placeholder": "Nhập địa chỉ email"
+  },
+  "titleLineTeam": "Các vị trí trong Team",
+  "titleCareerPathTeam": "Lộ trình phát triển của vị trí này",
+  "titleRecruitDetail": "Các vị trí công ty đang tuyển"
+}

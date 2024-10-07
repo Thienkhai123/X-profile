@@ -1,0 +1,38 @@
+{
+  "XProfile": {
+    "title": "Bắt đầu cuộc hành trình với X-Profile",
+    "description": "Hành trình đi tìm bản thân trong thế giới nghề nghiệp rộng lớn.\nBạn sẵn sàng chưa?",
+    "button": "Khám phá",
+    "link": "Tìm hiểu cách bắt đầu với X-Profile"
+  },
+  "titleSelfTest": "Hiểu bản thân ",
+  "titleDiscovery": "Khám phá nghề nghiệp phù hợp với bạn",
+  "titleField": "Những nghề thuộc ngành Công nghệ thông tin",
+  "Step": [
+    {
+      "id": 1,
+      "title": "Business Analyst",
+      "href": "#"
+    },
+    {
+      "id": 2,
+      "title": "Business Analyst",
+      "href": "#"
+    },
+    {
+      "id": 3,
+      "title": "Business Analyst",
+      "href": "#"
+    },
+    {
+      "id": 4,
+      "title": "Quality Control",
+      "href": "#"
+    },
+    {
+      "id": 5,
+      "title": "Front-end Developer",
+      "href": "#"
+    }
+  ]
+}

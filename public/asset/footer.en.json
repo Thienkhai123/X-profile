@@ -1,0 +1,203 @@
+{
+  "content": "Lorem ipsum dolor sit amet consectetur. Amet viverra in eget dui vel pulvinar. Mi ut integer nunc parturient nulla. Eleifend pellentesque sit facilisi etiam pulvinar nibh a.",
+  "FOOTER_CONFIG": [
+    {
+      "title": "Product",
+      "content": [
+        {
+          "id": 0,
+          "href": "#",
+          "titleContent": "Landing Page"
+        },
+        {
+          "id": 1,
+          "href": "#",
+          "titleContent": "Popup Builder"
+        },
+        {
+          "id": 2,
+          "href": "#",
+          "titleContent": "Web-design"
+        },
+        {
+          "id": 3,
+          "href": "#",
+          "titleContent": "Content"
+        },
+        {
+          "id": 4,
+          "href": "#",
+          "titleContent": "Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Use Cases",
+      "content": [
+        {
+          "id": 0,
+          "href": "#",
+          "titleContent": "Web-designers"
+        },
+        {
+          "id": 1,
+          "href": "#",
+          "titleContent": "Marketers"
+        },
+        {
+          "id": 2,
+          "href": "#",
+          "titleContent": "Small Business"
+        },
+        {
+          "id": 3,
+          "href": "#",
+          "titleContent": "Website Builder"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "content": [
+        {
+          "id": 0,
+          "href": "#",
+          "titleContent": "Academy"
+        },
+        {
+          "id": 1,
+          "href": "#",
+          "titleContent": "Blog"
+        },
+        {
+          "id": 2,
+          "href": "#",
+          "titleContent": "Themes"
+        },
+        {
+          "id": 3,
+          "href": "#",
+          "titleContent": "Hosting"
+        },
+        {
+          "id": 4,
+          "href": "#",
+          "titleContent": "Developers"
+        },
+        {
+          "id": 5,
+          "href": "#",
+          "titleContent": "Support"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "content": [
+        {
+          "id": 0,
+          "href": "#",
+          "titleContent": "About Us"
+        },
+        {
+          "id": 1,
+          "href": "#",
+          "titleContent": "Careers"
+        },
+        {
+          "id": 2,
+          "href": "#",
+          "titleContent": "FAQs"
+        },
+        {
+          "id": 3,
+          "href": "#",
+          "titleContent": "Teams"
+        },
+        {
+          "id": 4,
+          "href": "#",
+          "titleContent": "Contact Us"
+        },
+        {
+          "id": 5,
+          "href": "#",
+          "titleContent": "Career Paths"
+        }
+      ]
+    }
+  ],
+  "SETTING_THEMES": {
+    "theme": "bg-white",
+    "conect": {
+      "title": "Contact Us",
+      "conected": [
+        {
+          "icon": "",
+          "href": "#",
+          "description": "Công ty cổ phần công nghệ X-Profile"
+        },
+        {
+          "icon": "mapPoint",
+          "href": "https://goo.gl/maps/BV2s782NQoaKkpbq5",
+          "description": "21 đường số 06, P. Tân Hưng, Q.7"
+        },
+        {
+          "icon": "letter",
+          "href": "mailto:hello@xprofile.vn",
+          "description": "hello@xprofile.vn"
+        },
+        {
+          "icon": "telePhone",
+          "href": "#",
+          "description": "076 5261579"
+        }
+      ]
+    },
+    "follow": {
+      "title": "Follow us",
+      "followIcon": [
+        {
+          "href": "https://www.facebook.com/xprofilejsc",
+          "icon": "facebookFooter2"
+        },
+        { "href": "", "icon": "youtubeFooter2" },
+        {
+          "href": "https://www.linkedin.com/company/x-profile/",
+          "icon": "linkeinFooter"
+        },
+        {
+          "href": "https://www.instagram.com/xprofile.vn/",
+          "icon": "instagramFooter"
+        },
+        { "href": "", "icon": "tiktokFooter" }
+      ]
+    },
+    "content": {
+      "title": "© 2021 All Rights Reserved",
+      "href": "/",
+      "cotented": [
+        {
+          "href": "#",
+          "title": "Privacy Policy"
+        },
+        {
+          "href": "#",
+          "title": "Terms of Use"
+        },
+        {
+          "href": "#",
+          "title": "Sales and Refunds"
+        },
+        {
+          "href": "#",
+          "title": "Legal"
+        },
+        {
+          "href": "#",
+          "title": "Site Map"
+        }
+      ]
+    }
+  }
+}

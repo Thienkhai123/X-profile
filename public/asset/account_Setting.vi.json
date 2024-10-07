@@ -1,0 +1,107 @@
+{
+  "accountAction": [
+    {
+      "id": 0,
+      "type": "information",
+      "title": "Hồ sơ công khai",
+      "icon": "userCard",
+      "href": "/account-setting/information"
+    },
+    {
+      "id": 1,
+      "type": "personal-information",
+      "title": "Thông tin cá nhân",
+      "icon": "userRounded",
+      "href": "/account-setting/personal-information"
+    },
+    {
+      "id": 2,
+      "type": "changePassword",
+      "title": "Đổi mật khẩu",
+      "icon": "keyMini",
+      "href": "/account-setting/change-password"
+    },
+    {
+      "id": 3,
+      "type": "jobSaved",
+      "title": "Việc làm đã lưu",
+      "icon": "bookmark",
+      "href": "/account-setting/job-saved"
+    },
+    {
+      "id": 4,
+      "type": "applicationHistory",
+      "title": "Lịch sử ứng tuyển",
+      "icon": "documentAdd",
+      "href": "/account-setting/applicationHistory"
+    },
+    {
+      "id": 5,
+      "type": "mycourses",
+      "title": "Khóa học của tôi",
+      "icon": "bookBookmark",
+      "href": "/account-setting/courses"
+    },
+    {
+      "id": 6,
+      "type": "logout",
+      "title": "Đăng xuất",
+      "icon": "exit",
+      "href": "/logout"
+    }
+  ],
+  "society": [
+    {
+      "icon": "facebook",
+      "href": "/"
+    },
+    {
+      "icon": "youtubeFooter",
+      "href": "/"
+    },
+    {
+      "icon": "twitter",
+      "href": "/"
+    },
+    {
+      "icon": "telegramFooter",
+      "href": "/"
+    }
+  ],
+  "information": {
+    "titleName": "Họ và tên",
+    "titleLocation": "Vị trí ứng tuyển",
+    "titleEmail": "Email",
+    "titlePhone": "Số điện thoại",
+    "titleField": "Lĩnh vực"
+  },
+  "titleButton": "Đăng tải hồ sơ",
+  "titleHideButton": "Ẩn hồ sơ",
+  "block": {
+    "targetBlock": {
+      "title": "Mục tiêu nghề nghiệp",
+      "titleButton": "Thêm mục tiêu"
+    },
+    "certificateBlock": {
+      "title": "Chứng chỉ chuyên môn",
+      "titleButton": "Thêm chứng chỉ"
+    },
+    "skillBlock": {
+      "title": "Kỹ năng công việc",
+      "titleButton": "Thêm kỹ năng",
+      "testButton": "Làm bài test"
+    },
+    "AchievementBlock": {
+      "title": "Bảng thành thích",
+      "titleButton": "Thêm thành tích"
+    },
+    "ExperienceBlock": {
+      "title": "Kinh nghiệm làm việc",
+      "titleButton": "Thêm kinh nghiệm"
+    },
+    "AnotherBlock": {
+      "title": "Trải nghiệm khác"
+    },
+    "addBlock": "Thêm thông tin"
+  }
+}

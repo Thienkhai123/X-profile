@@ -1,0 +1,171 @@
+{
+  "NAVIGATION_CONFIG": [
+    {
+      "title": "Trang chủ",
+      "passHref": false,
+      "href": "/",
+      "hrefList": ["/"],
+      "navbarList": []
+    },
+    {
+      "title": "Việc làm IT",
+      "passHref": false,
+      "href": "/jobs",
+      "hrefList": ["/jobs"],
+      "navbarList": []
+    },
+    {
+      "title": "Khoá học",
+      "passHref": false,
+      "href": "/course",
+      "hrefList": ["/course"],
+      "navbarList": []
+    },
+    {
+      "title": "Lộ trình nghề nghiệp",
+      "passHref": false,
+      "href": "/career-path/it",
+      "hrefList": [
+        "/career-path/[categoryId]",
+        "/career-path/[categoryId]/[id]"
+      ],
+      "navbarList": []
+    },
+    {
+      "title": "Blog",
+      "passHref": true,
+      "href": "https://blog.xprofile.vn/",
+      "hrefList": ["https://blog.xprofile.vn/"],
+      "navbarList": []
+    }
+  ],
+  "NAVIGATION_CAREER_PATH_CONFIG": [
+    {
+      "title": "Trang chủ",
+      "passHref": false,
+      "href": "/",
+      "hrefList": ["/"],
+      "navbarList": []
+    },
+    {
+      "title": "Việc làm IT",
+      "passHref": false,
+      "href": "/jobs",
+      "hrefList": ["/jobs"],
+      "navbarList": []
+    },
+    {
+      "title": "Khoá học",
+      "passHref": false,
+      "href": "/course",
+      "hrefList": ["/course"],
+      "navbarList": []
+    },
+    {
+      "title": "Lộ trình nghề nghiệp",
+      "passHref": false,
+      "href": "/career-path/it",
+      "hrefList": [
+        "/career-path/[categoryId]",
+        "/career-path/[categoryId]/[id]"
+      ],
+      "navbarList": []
+    },
+    {
+      "title": "Hồ sơ năng lực",
+      "passHref": false,
+      "href": "/applicant-profile",
+      "hrefList": [],
+      "navbarList": []
+    },
+    {
+      "title": "Hành trình của tôi",
+      "passHref": false,
+      "href": "/my-journey",
+      "hrefList": [],
+      "navbarList": []
+    },
+    {
+      "title": "Thiết lập tài khoản",
+      "passHref": false,
+      "href": "/account-setting/information",
+      "hrefList": [],
+      "navbarList": []
+    },
+    {
+      "title": "Blog",
+      "passHref": true,
+      "href": "https://blog.xprofile.vn/",
+      "hrefList": ["https://blog.xprofile.vn/"],
+      "navbarList": []
+    }
+  ],
+  "NAVIGATION_COMPANY_CONFIG": [
+    {
+      "title": "Trang chủ",
+      "passHref": false,
+      "href": "/",
+      "hrefList": ["/"],
+      "navbarList": [],
+      "ownedCompany": false
+    },
+
+    {
+      "title": "Hồ sơ công ty",
+      "passHref": false,
+      "href": "/profile-company",
+      "hrefList": [
+        "/profile-company",
+        "/profile-company/[companyId]/edit",
+        "/profile-company/[companyId]/[departmentId]/edit",
+        "/profile-company/[companyId]/[departmentId]/[departmentPositionId]/edit"
+      ],
+      "navbarList": [],
+      "ownedCompany": true
+    },
+    {
+      "title": "Việc làm IT",
+      "passHref": false,
+      "href": "/jobs",
+      "hrefList": ["/jobs"],
+      "navbarList": []
+    },
+    {
+      "title": "Blog",
+      "passHref": true,
+      "href": "https://blog.xprofile.vn/",
+      "hrefList": ["https://blog.xprofile.vn/"],
+      "navbarList": [],
+      "ownedCompany": false
+    },
+    {
+      "title": "Kho CV",
+      "passHref": false,
+      "href": "/cv-database",
+      "hrefList": ["/cv-database"],
+      "navbarList": [],
+      "ownedCompany": false
+    }
+  ],
+  "SETTING_CONFIG": {
+    "logo": {
+      "backgroundColor": "bg-gray-900",
+      "logo": "logo",
+      "companyName": "Sai gon MIO",
+      "href": "/"
+    },
+    "info": {
+      "image": "/images/avatar.png"
+    },
+    "auth": {
+      "login": {
+        "title": "Đăng nhập",
+        "href": "/sign-in"
+      },
+      "register": {
+        "title": "Đăng ký",
+        "href": "/sign-up"
+      }
+    }
+  }
+}

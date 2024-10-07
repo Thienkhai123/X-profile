@@ -1,0 +1,39 @@
+{
+  "jobTab": "Job",
+  "companyTab": "Company",
+  "jobTitle": "Job search",
+  "searchInputPlaceholder": "Job search",
+  "cityDefault": "All City",
+  "moreFilter": "More Filter",
+  "searchButton": "Search",
+  "jobsCount": "job",
+  "jobsCountIn": "in",
+  "Priority": "Priority Show",
+  "title": "Search company",
+  "titlePlaceholder": "Jobs search",
+  "titleButton": "Search",
+  "titleAllSelect": "All",
+  "company": "Company",
+  "titleOptionShow": "Priority display",
+  "filterBestList": [{ "title": "Best fit" }],
+  "PRIOTIRY_DATA": [
+    { "id": 0, "name": "Best fit" },
+    { "id": 1, "name": "Latest update" },
+    { "id": 2, "name": "Top salary" },
+    { "id": 3, "name": "New job posted" }
+  ],
+  "SETTING_TAB": [
+    {
+      "id": 1,
+      "logoSVG": "career",
+      "title": "Jobs",
+      "href": "#"
+    },
+    {
+      "id": 2,
+      "logoSVG": "company",
+      "title": "Company",
+      "href": "#"
+    }
+  ]
+}

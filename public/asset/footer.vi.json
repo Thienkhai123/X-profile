@@ -1,0 +1,178 @@
+{
+  "content": "Giải pháp xây dựng thương hiệu tuyển dụng và hồ sơ năng lực cho doanh nghiệp và ứng viên ngành Công nghệ thông tin.",
+  "FOOTER_CONFIG": [
+    {
+      "title": "Ứng viên",
+      "content": [
+        {
+          "id": 0,
+          "href": "/jobs",
+          "titleContent": "Công việc"
+        },
+        {
+          "id": 1,
+          "href": "/career-path/it",
+          "titleContent": "Lộ trình nghề nghiệp"
+        },
+        {
+          "id": 2,
+          "href": "/course",
+          "titleContent": "Khóa học trực tuyến"
+        },
+        {
+          "id": 3,
+          "href": "https://www.facebook.com/groups/vietcodecangay",
+          "titleContent": "Cộng đồng"
+        }
+      ]
+    },
+    {
+      "title": "Nhà tuyển dụng",
+      "content": [
+        {
+          "id": 0,
+          "href": "#",
+          "titleContent": "Các dịch vụ"
+        },
+        {
+          "id": 1,
+          "href": "#",
+          "titleContent": "Bảng giá"
+        },
+        {
+          "id": 2,
+          "href": "#",
+          "titleContent": "Liên hệ với chúng tôi "
+        }
+      ]
+    },
+    {
+      "title": "Blog",
+      "content": [
+        {
+          "id": 0,
+          "href": "#",
+          "titleContent": "Ngành IT"
+        },
+        {
+          "id": 1,
+          "href": "#",
+          "titleContent": "Kênh Tuyển Dụng"
+        },
+        {
+          "id": 2,
+          "href": "#",
+          "titleContent": "Kênh Hướng Nghiệp"
+        },
+        {
+          "id": 3,
+          "href": "#",
+          "titleContent": "Kênh Đào Tạo"
+        }
+      ]
+    },
+    {
+      "title": "Hỗ trợ",
+      "content": [
+        {
+          "id": 0,
+          "href": "/policy/cau-hoi-thuong-gap",
+          "titleContent": "FAQs"
+        },
+        {
+          "id": 1,
+          "href": "/policy/dieu-khoan-su-dung",
+          "titleContent": "Điều khoản sử dụng"
+        },
+        {
+          "id": 2,
+          "href": "/policy/chinh-sach-bao-mat",
+          "titleContent": "Chính sách bảo mật"
+        },
+        {
+          "id": 3,
+          "href": "/policy/chinh-sach-vnpay",
+          "titleContent": "Hướng dẫn thanh toán VNPAY"
+        },
+        {
+          "id": 4,
+          "href": "/policy/chinh-sach-thanh-toan",
+          "titleContent": "Chính sách thanh toán"
+        }
+      ]
+    }
+  ],
+  "SETTING_THEMES": {
+    "theme": "bg-white",
+    "conect": {
+      "title": "Liên hệ",
+      "conected": [
+        {
+          "icon": "",
+          "href": "#",
+          "description": "Công ty cổ phần công nghệ X-Profile"
+        },
+        {
+          "icon": "mapPoint",
+          "href": "https://goo.gl/maps/BV2s782NQoaKkpbq5",
+          "description": "21 đường số 06, P. Tân Hưng, Q.7"
+        },
+        {
+          "icon": "letter",
+          "href": "mailto:hello@xprofile.vn",
+          "description": "hello@xprofile.vn"
+        },
+        {
+          "icon": "telePhone",
+          "href": "#",
+          "description": "076 5261579"
+        }
+      ]
+    },
+    "follow": {
+      "title": "Follow us",
+      "followIcon": [
+        {
+          "href": "https://www.facebook.com/xprofilejsc",
+          "icon": "facebookFooter2"
+        },
+        { "href": "", "icon": "youtubeFooter2" },
+        {
+          "href": "https://www.linkedin.com/company/x-profile/",
+          "icon": "linkeinFooter"
+        },
+        {
+          "href": "https://www.instagram.com/xprofile.vn/",
+          "icon": "instagramFooter"
+        },
+        { "href": "", "icon": "tiktokFooter" }
+      ]
+    },
+    "content": {
+      "title": "© 2021 All Rights Reserved",
+      "href": "/",
+      "cotented": [
+        {
+          "href": "#",
+          "title": "Privacy Policy"
+        },
+        {
+          "href": "#",
+          "title": "Terms of Use"
+        },
+        {
+          "href": "#",
+          "title": "Sales and Refunds"
+        },
+        {
+          "href": "#",
+          "title": "Legal"
+        },
+        {
+          "href": "#",
+          "title": "Site Map"
+        }
+      ]
+    }
+  }
+}

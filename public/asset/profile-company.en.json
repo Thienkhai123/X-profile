@@ -1,0 +1,47 @@
+{
+  "profileCompany": {
+    "titleHead": "Profile company",
+    "titleInformation": "Information company",
+    "titleMoreButton": "More",
+    "titleMapButton": "Map",
+    "titleMoreInformationButton": "More information",
+    "titleCulture": "Corporate culture profile",
+    "titleWorkDay": "A working day",
+    "titleTeams": "Teams",
+    "titleDemandSkills": "Learn In-demand Skills",
+    "titleRecruit": "Job openings",
+    "titleQuestions": "Frequently asked Questions",
+    "descriptionWorkDay": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mauris neque, interdum eu consequat"
+  },
+  "detailCompany": {
+    "titleDetailHead": "Company Detail",
+    "titleIntroduceTeam": "Introduce team",
+    "titleFactsContent": "interesting facts",
+    "titleSkillContent": "Skills",
+    "titleMeetingDetail": "Meeting"
+  },
+  "jobDetail": {
+    "titleJobdDetailHead": "Job details",
+    "titleGenaralSkillsJob": "General Skills Required",
+    "descriptionGenaralSkillsJob": "These are the most common general skills listed in job postings for ",
+    "titleAdvancedSkillsJob": "Required Professional Skills",
+    "descriptionAdvancedSkillsJob": "These are the most common general skills listed in job postings for ",
+    "titleNotiSkillProfessional": "Skills are being updated ...",
+    "titleJobDescription": "Job description",
+    "titleRelevance": "Relevance:",
+    "titleRelevanceButton": "Apply now",
+    "descriptionRelevance": "Update your profile to see your suitability for this job.",
+    "titleDescriptionRelevanceButton": "Update now",
+    "titleApplyJob": "Interested in this job? Apply to",
+    "day": "today",
+    "titleApplyButton": "Apply now",
+    "titleNewPaper": "Don't miss the exciting news!",
+    "descriptionNewPaper1": "Subscrible to",
+    "descriptionNewPaper2": "to receive job alerts, lastest news and updates.",
+    "titleFollowButton": "Follow",
+    "placeholder": "Email"
+  },
+
+  "titleLineTeam": "Development roadmap of the team",
+  "titleRecruitDetail": "The jobs that the team is hiring"
+}

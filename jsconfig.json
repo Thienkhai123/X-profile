@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "skipLibCheck": true,
+    "paths": {
+      "common/*": ["common/*"],
+      "i18n/*": ["i18n/*"],
+      "layouts/*": ["layouts/*"],
+      "pages/*": ["pages/*"],
+      "store/*": ["store/*"],
+      "styles/*": ["styles/*"],
+      "stories/*": ["stories/*"],
+    }
+  }
+}

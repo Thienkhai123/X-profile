@@ -1,0 +1,31 @@
+{
+  "titleHeader": "Chọn nhân vật",
+  "title": "Chọn nhân vật",
+  "titleButton": "Chọn",
+  "roleCard": [
+    {
+      "id": 0,
+      "hoverIcon": "ellipse",
+      "href": "/survey",
+      "title": "Cừu tân binh",
+      "description": "Phù hợp với sinh viên mới ra trường, chưa có nhiều kinh nghiệm và định hướng",
+      "src": "/images/sheepBoss.png"
+    },
+    {
+      "id": 1,
+      "hoverIcon": "polygon",
+      "href": "/survey",
+      "title": "Chuột công sở",
+      "description": "Phù hợp với người đã có kinh nghiệm làm việc từ 3 năm trở lên",
+      "src": "/images/mouseBoss.png"
+    },
+    {
+      "id": 2,
+      "hoverIcon": "vector",
+      "href": "/",
+      "title": "Gấu doanh nhân",
+      "description": "Phù hợp với doanh nghiệp, những người có nhu cầu tuyển dụng nhân sự",
+      "src": "/images/bearBoss.png"
+    }
+  ]
+}

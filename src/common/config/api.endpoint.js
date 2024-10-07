@@ -1,0 +1,280 @@
+export const apiEndpoint = (baseUrlAPI) => ({
+  DEMO: {
+    LIST: `https://jsonplaceholder.typicode.com/posts`
+  },
+  AUTH: {
+    LOGIN: `${baseUrlAPI}/api/auth/login`,
+    LOGIN_BY_TOKEN: `${baseUrlAPI}/api/auth/login-by-token`,
+    REGISTER: `${baseUrlAPI}/api/auth/register`,
+    REGISTER_VERIFY: `${baseUrlAPI}/api/auth/register-verify`,
+    REGISTER_VERIFY_CODE: `${baseUrlAPI}/api/auth/register-verify-code`,
+    GET_CITY: `${baseUrlAPI}/api/auth/city`,
+    GET_TOKEN_BY_FIREBASE: `${baseUrlAPI}/api/auth/get-token-by-firebase`,
+    FORGOT_PASSWORD_SEND_EMAIL: `${baseUrlAPI}/api/auth/ForgotPasswordSendEmail`,
+    FORGOT_PASSWORD_UPDATE: `${baseUrlAPI}/api/auth/ForgotPasswordUpdate`
+  },
+  COURSE: {
+    GET_ALL_PRODUCT_COURSE: `${baseUrlAPI}/api/Course/GetAllProductCourse`,
+    GET_ALL_USER_COURSE_LIKED: `${baseUrlAPI}/api/Course/GetAllUserCourseLiked`,
+    GET_ALL_USER_COURSE_OWNED: `${baseUrlAPI}/api/Course/GetAllUserCourseOwned`,
+    GET_COURSE_DETAIL: `${baseUrlAPI}/api/Course/GetCourseDetail`,
+    GET_LESSON_DETAIL: `${baseUrlAPI}/api/Course/GetLessonDetail`,
+    GET_USER_LESSON_PROGRESS: `${baseUrlAPI}/api/Course/UserLessonProgress`,
+    GET_PRODUCT_COURSE_DETAIL: `${baseUrlAPI}/api/Course/GetProductCourseDetail`,
+    GET_PRODUCT_COURSE_DETAIL_SEO: `${baseUrlAPI}/api/Course/GetProductCourseDetailSeo`,
+    GET_COURSE_BANNER: `${baseUrlAPI}/api/Course/GetAllBanners`,
+    GET_COURSE_CATEGORY: `${baseUrlAPI}/api/Course/GetAllCourseCategories`,
+    GET_COURSE_RECOMMENDED: `${baseUrlAPI}/api/Course/GetAllRecommendedCourses`,
+    GET_COURSE_PUBLIC: `${baseUrlAPI}/api/Course/GetAllPopularCourses`,
+    GET_ALL_PRODUCT_COURSE: `${baseUrlAPI}/api/Course/GetAllProductCourse`,
+    GET_PRODUCT_RECENT_USER_LIST: `${baseUrlAPI}/api/Course/GetProductRecentUserList`,
+    ADD_NEW_COURSE_COMMENT: `${baseUrlAPI}/api/Course/AddNewCourseComment`,
+    CHANGE_COURSE_LIKE_STATUS: `${baseUrlAPI}/api/Course/ChangeCourseLikeStatus`
+  },
+  LESSON: {
+    GET_ALL_COMMENT_FOR_LESSON: `${baseUrlAPI}/api/Lesson/GetAllCommentForLesson`,
+    GET_REPLY_COMMENT_FOR_LESSON: `${baseUrlAPI}/api/Lesson/GetReplyComment`,
+    CREATE_COMMENT_FOR_LESSON: `${baseUrlAPI}/api/Lesson/CreateCommentForLesson`,
+    DELETE_COMMENT_FOR_LESSON: `${baseUrlAPI}/api/Lesson/DeleteCommentForLesson`,
+    LIKE_COMMENT: `${baseUrlAPI}/api/Lesson/LikeComment`,
+    UNLIKE_COMMENT: `${baseUrlAPI}/api/Lesson/UnLikeComment`,
+    UN_DISLIKE_COMMENT: `${baseUrlAPI}/api/Lesson/UnDisLikeComment`,
+    DISLIKE_COMMENT: `${baseUrlAPI}/api/Lesson/DisLikeComment`,
+    LESSON_ACTION: `${baseUrlAPI}/api/Lesson/LessonAction`,
+    GET_LESSON_LICENSE: `${baseUrlAPI}/api/Lesson/GetLessonLicense`
+  },
+  JOB: {
+    GET_JOB_CATEGORY: `${baseUrlAPI}/api/Job/GetJobCategory`,
+    GET_JOB_BY_JOB_CATEGORY: `${baseUrlAPI}/api/Job`,
+    GET_ALL_JOB: `${baseUrlAPI}/api/Job/GetAllJobs`,
+    GET_ALL_CITIES: `${baseUrlAPI}/api/Job/GetAllCities`,
+    GET_ALL_DISTRICTS: `${baseUrlAPI}/api/Job/GetAllDistricts`,
+    GET_ALL_WARDS: `${baseUrlAPI}/api/Job/GetAllWards`,
+    GET_ALL_COMPANIES: `${baseUrlAPI}/api/Job/GetAllCompanies`,
+    GET_JOB_FILTER: `${baseUrlAPI}/api/Job`,
+    GET_ALL_SKILL: `${baseUrlAPI}/api/UserSkill/GetAllSkill`,
+    GET_JOB_CATEGORY_FAQ_ROOT: `${baseUrlAPI}/api/Job/JobCategoryFaqRoot`,
+    GET_JOB_CATEGORY_FAQ_ROOT_BY_TAG: `${baseUrlAPI}/api/Job/JobCategoryFaqRootByTag`,
+    GET_JOB_FAQ_ROOT: `${baseUrlAPI}/api/Job/FaqRoot`,
+    GET_JOB_CATEGORY_CHILD_FAQ: `${baseUrlAPI}/api/Job/ChildFaq`,
+    GET_JOB_WORKING_DAY: `${baseUrlAPI}/api/Job/WorkingDays`,
+    GET_JOB_BY_TAG: `${baseUrlAPI}/api/Job/GetJobByTag`,
+    GET_JOB_DETAIL: `${baseUrlAPI}/api/Job/GetJobDetail`,
+    GET_JOB_BY_CATEGORY_TAG: `${baseUrlAPI}/api/Job/GetJobsByCategoryTag`,
+    GET_JOB_BY_FAQ_ROOT_TAG: `${baseUrlAPI}/api/Job/FaqRootByTag`,
+    GET_JOB_WORKING_DAY_BY_TAG: `${baseUrlAPI}/api/Job/WorkingDaysByTag`,
+    GET_ALL_JOB_LEVELS: `${baseUrlAPI}/api/Job/GetAllJobLevels`
+  },
+  CAMPAIGN: {
+    GET_USER_FAVORITE_CAMPAIGNS: `${baseUrlAPI}/api/Campaign/GetUserFavoriteCampaignsv2`,
+    CHANGE_USER_FAVORITE_CAMPAIGNS: `${baseUrlAPI}/api/Campaign/ChangeUserFavoriteCampaignv2`,
+    APPLY: `${baseUrlAPI}/api/Campaign/Apply`,
+    CAN_APPLY: `${baseUrlAPI}/api/Campaign/CanApply`,
+    REJECT: `${baseUrlAPI}/api/Campaign/UserRejectCampaign`,
+    REVIEW: `${baseUrlAPI}/api/Campaign/UserReviewCampaign`,
+    GET_USER_APPLIED_CAMPAIGNS: `${baseUrlAPI}/api/Campaign/GetUserAppliedCampaigns`,
+    GET_USER_ACCEPT_INTERVIEW_CAMPAIGN: `${baseUrlAPI}/api/Campaign/GetUserInterviewInfo`,
+    USER_ACCEPT_INTERVIEW_CAMPAIGN: `${baseUrlAPI}/api/Campaign/UserAcceptInterviewCampaign`,
+    GET_USER_CAMPAIGN_FEEDBACK: `${baseUrlAPI}/api/Campaign/GetUserCampaignFeedback`
+  },
+  NOTIFICATION: {
+    GET_ALL_NOTIFICATION: `${baseUrlAPI}/api/User/get-all-notifications`,
+    READ_NOTIFICATIONS: `${baseUrlAPI}/api/User/read-notifications`,
+    LOAD_MORE_NOTIFICATIONS: `${baseUrlAPI}/api/User/get-all-notifications`,
+    REMOVE_NOTIFICATIONS: `${baseUrlAPI}/api/User/remove-notification`,
+    CLICK_NOTIFICATIONS: `${baseUrlAPI}/api/User/click-notification`
+  },
+  USER: {
+    GET_PROFILE: `${baseUrlAPI}/api/user/profile`,
+    UPDATE_PROFILE: `${baseUrlAPI}/api/user/update-profile`,
+    UPDATE_PERSONAL_PROFILE: `${baseUrlAPI}/api/user/update-personal-profile`,
+    EXPORT_PDF: `${baseUrlAPI}/api/user/export-pdf`,
+    EXPORT_PDF_HTML: `${baseUrlAPI}/api/user/export-pdf-html`
+  },
+  ORDER: {
+    GET_USER_CART: `${baseUrlAPI}/api/Order/GetUserCart`,
+    GET_USER_ORDER_HISTORY: `${baseUrlAPI}/api/Order/GetUserOrderHistory`,
+    GET_USER_ORDER_HISTORY_DETAIL: `${baseUrlAPI}/api/Order/GetUserOrderHistory/`,
+    ADD_COURSE_TO_CART: `${baseUrlAPI}/api/Order/AddCourseToCart`,
+    REMOVE_COURSE_FROM_CART: `${baseUrlAPI}/api/Order/RemoveCourseFromCart`,
+    CHECKOUT: `${baseUrlAPI}/api/Order/CheckoutProduct`,
+    CREATE_SINGLE_ORDER: `${baseUrlAPI}/api/Order/CreateSingleOrder`
+  },
+  PAYMENT: {
+    GET_PAYMENT_GATEWAY: `${baseUrlAPI}/api/PaymentGateway`
+  },
+  SURVEY: {
+    GET_PUBLISHED_SURVEY: `${baseUrlAPI}/api/Survey/GetPublishedSurvey`,
+    GET_PUBLISHED_POSTION: `${baseUrlAPI}/api/Survey/GetPublishedPostion`,
+    GET_HOME_BLOCK_TYPE: `${baseUrlAPI}/api/Survey/GetHomeBlockType`,
+    POST_SURVEY: `${baseUrlAPI}/api/Survey`,
+    CREATE_USER_SURVEY: `${baseUrlAPI}/api/Survey/CreateUserSurvey`
+  },
+  HOME: {
+    PICK_CHARACTER: `${baseUrlAPI}/api/Home/PickCharacter`,
+    GET_PRODUCT_BY_JOBID: `${baseUrlAPI}/api/Home/GetProductByJobId`,
+    GET_TOP_JOB_COMPANY: `${baseUrlAPI}/api/Home/GetTopJobCompany`,
+    GET_RECRUITMENT_CAMPAIGN_BY_JOBID: `${baseUrlAPI}/api/Home/GetRecruitmentCampaignByJobId`,
+    GET_SKILLTYPE: `${baseUrlAPI}/api/Home/GetSkillType`,
+    HOME_FEEDBACK: `${baseUrlAPI}/api/Home/Feedback`
+  },
+  COMPANY: {
+    // CULTUREMEDIA: `${baseUrlAPI}/api/Company/CultureMedia`,
+    // PROFILE: `${baseUrlAPI}/api/Company/Profile`,
+    // IMAGE: `${baseUrlAPI}/api/Company/Image`,
+    // WORKINGDAY: `${baseUrlAPI}/api/Company/WorkingDay`,
+    // DEPARTMENT: `${baseUrlAPI}/api/Company/Department`,
+    // RECRUITMENTCAMPAIGN: `${baseUrlAPI}/api/Company/RecruitmentCampaign`,
+    // COURSE: `${baseUrlAPI}/api/Company/Course`,
+    FAQROOTBYID: `${baseUrlAPI}/api/Company/FaqRoot`,
+    CHILDFAQBYID: `${baseUrlAPI}/api/Company/ChildFaq`,
+    // HASEDITPERMISSION: `${baseUrlAPI}/api/Company/HasEditPermission`
+
+    CULTUREMEDIA: `${baseUrlAPI}/api/Company/CultureMediaByTag`,
+    PROFILE: `${baseUrlAPI}/api/Company/ProfileByTag`,
+    PROFILE_COMPANY: `${baseUrlAPI}/api/Company/Profile`,
+    USER_CONFIRMATION: `${baseUrlAPI}/api/Company/UserConfirmation`,
+    IMAGE: `${baseUrlAPI}/api/Company/ImageByTag`,
+    WORKINGDAY: `${baseUrlAPI}/api/Company/WorkingDayByTag`,
+    DEPARTMENT: `${baseUrlAPI}/api/Company/DepartmentByTag`,
+    RECRUITMENTCAMPAIGN: `${baseUrlAPI}/api/Company/RecruitmentCampaignByTag`,
+    COURSE: `${baseUrlAPI}/api/Company/Course`,
+    FAQROOT: `${baseUrlAPI}/api/Company/FaqRootByTag`,
+    CHILDFAQ: `${baseUrlAPI}/api/Company/ChildFaq`,
+    GET_ADDRESS_BOOKS_COMPANY_BY_TAG: `${baseUrlAPI}/api/Company/AddressBooksByTag`,
+    HASEDITPERMISSION: `${baseUrlAPI}/api/Company/HasEditPermission`,
+    HASEDITPERMISSIONBYTAGNAME: `${baseUrlAPI}/api/Company/HasEditPermissionByTag`,
+    GET_VIEW_COUNT: `${baseUrlAPI}/api/Company/GetViewCount`,
+    UPDATE_VIEW_COUNT: `${baseUrlAPI}/api/Company/UpdateViewCount`
+  },
+  DEPARTMENT: {
+    PROFILE: `${baseUrlAPI}/api/Department/Profile`,
+    IMAGE: `${baseUrlAPI}/api/Department/Image`,
+    FUNFACT: `${baseUrlAPI}/api/Department/FunFact`,
+    SKILL: `${baseUrlAPI}/api/Department/Skill`,
+    COMMENT: `${baseUrlAPI}/api/Department/Comment`,
+    DEPARTMENTPOSITION: `${baseUrlAPI}/api/Department/DepartmentPositionv2`,
+    RECRUITMENT: `${baseUrlAPI}/api/Department/Recruitment`,
+    GETUSERSTATUS: `${baseUrlAPI}/api/DepartmentPosition/GetUserStatus`,
+    GET_VIEW_COUNT: `${baseUrlAPI}/api/Department/GetViewCount`,
+    UPDATE_VIEW_COUNT: `${baseUrlAPI}/api/Department/UpdateViewCount`,
+    GET_ALL_JOB_LEVELS: `${baseUrlAPI}/api/Job/GetAllJobLevels`,
+    GET_TEMPLATE_BY_JOB_LEVEL: `${baseUrlAPI}/api/DepartmentPosition/GetTemplateByJobLevel`
+  },
+  DEPARTMENTPOSITION: {
+    PROFILE: `${baseUrlAPI}/api/DepartmentPosition/Profile`,
+    SKILL: `${baseUrlAPI}/api/DepartmentPosition/Skill`,
+    GET_VIEW_COUNT: `${baseUrlAPI}/api/DepartmentPosition/GetViewCount`,
+    UPDATE_VIEW_COUNT: `${baseUrlAPI}/api/DepartmentPosition/UpdateViewCount`
+  },
+  PORTFOLIO: {
+    GET_ALL_TEMPLATE_OPTION: `${baseUrlAPI}/api/Portfolio/GetAllTemplateOption`,
+    GET_USER_PORTFOLIO: `${baseUrlAPI}/api/Portfolio/GetUserPortfolio`,
+    UPDATE_USER_PORTFOLIO: `${baseUrlAPI}/api/Portfolio/UpdateUserPortfolio`,
+    // UPDATE_USER_TEMPLATE_OPTION_VALUE: `${baseUrlAPI}/api/Portfolio/UpdateUserTemplateOptionValueV2`,
+    UPDATE_USER_TEMPLATE_OPTION_VALUE: `${baseUrlAPI}/api/Portfolio/UpdateUserTemplateOptionValue`,
+    // UPDATE_LIST_USER_TEMPLATE_OPTION_VALUE: `${baseUrlAPI}/api/Portfolio/UpdateListUserTemplateOptionValueV2`,
+    UPDATE_LIST_USER_TEMPLATE_OPTION_VALUE: `${baseUrlAPI}/api/Portfolio/UpdateListUserTemplateOptionValue`,
+    CREATE_USER_TEMPLATE_OPTION_VALUE: `${baseUrlAPI}/api/Portfolio/CreateUserTemplateOptionValue`,
+    // CREATE_LIST_USER_TEMPLATE_OPTION_VALUE: `${baseUrlAPI}/api/Portfolio/CreateListUserTemplateOptionValueV2`,
+    CREATE_LIST_USER_TEMPLATE_OPTION_VALUE: `${baseUrlAPI}/api/Portfolio/CreateListUserTemplateOptionValue`,
+    UPDATE_ACTIVE_STATUS_USER_TEMPLATE_OPTION_VALUE: `${baseUrlAPI}/api/Portfolio/UpdateActiveStatusUserTemplateOptionValue`,
+    GET_ACHIVEMENT_IMAGES: `${baseUrlAPI}/api/Portfolio/GetAchivementImages`,
+    PUBLISH_PORTFOLIO: `${baseUrlAPI}/api/Portfolio/PublishPortfolio`,
+    SET_OPEN_TO_WORK: `${baseUrlAPI}/api/Portfolio/SetOpenToWork`,
+    UPDATE_PORTFOLIO_TAG: `${baseUrlAPI}/api/Portfolio/UpdatePortfolioTag/`,
+    CHECK_TAG_NAME: `${baseUrlAPI}/api/Portfolio/CheckPortfolioTag`,
+    GET_ALL_QUESTION_HINTS: `${baseUrlAPI}/api/Portfolio/GetAllQuestionHints`,
+    GET_USER_APPLY_STATUS: `${baseUrlAPI}/api/Portfolio/GetUserApplyStatus`,
+    GET_ALL_CONTENT: `${baseUrlAPI}/api/User/GetATSContent`,
+    INVITE_USER_APPLY: `${baseUrlAPI}/api/Portfolio/InviteUserApply`
+  },
+  USERSKILL: {
+    GET_ALL_SKILL: `${baseUrlAPI}/api/UserSkill/GetAllSkill`,
+    GET_ALL_SKILL_V2: `${baseUrlAPI}/api/UserSkill/GetAllSkillv2`,
+    GET_ALL_USER_SKILL: `${baseUrlAPI}/api/UserSkill/GetAllUserSkill`,
+    GET_ALL_USER_LANGUAGES: `${baseUrlAPI}/api/UserSkill/GetAllLanguages`,
+    GET_ALL_USERSKILL_BY_TAG: `${baseUrlAPI}/api/UserSkill/GetAllUserSkillByTag/`
+  },
+  HELPER: {
+    UPLOAD_IMAGE: `${baseUrlAPI}/api/Helper/UploadImage`,
+    UPLOAD_FILE: `${baseUrlAPI}/api/Helper/UploadFile`,
+    GETPRESIGNEDURL: `${baseUrlAPI}/api/Helper/GetPresignedUrl`,
+    GETWORKINGDAYIMAGES: `${baseUrlAPI}/api/Helper/GetWorkingDayImages`,
+    GET_FUNFACT_IMAGES: `${baseUrlAPI}/api/Helper/GetSystemImages?type=1`,
+    GET_ACHIVEMENT_IMAGES: `${baseUrlAPI}/api/Helper/GetSystemImages?type=2`,
+    GET_SYSTEM_IMAGES: `${baseUrlAPI}/api/Helper/GetSystemImages?type=4`,
+    GET_BENEFITS_IMAGES: `${baseUrlAPI}/api/Helper/GetSystemImages?type=5`
+  },
+  CAREERPATH: {
+    GET_TOP_COMPANIES: `${baseUrlAPI}/api/Home/GetTopJobCompany`,
+    GET_TOP_JOB_COMPANY_BY_TAG: `${baseUrlAPI}/api/Job/GetTopJobCompany`
+  },
+  EDIT: {
+    GET_PROFILE_COMPANY: `${baseUrlAPI}/api/Company/Profile`,
+    GET_ADDRESS_BOOKS_COMPANY: `${baseUrlAPI}/api/Company/AddressBooks`,
+    GET_IMAGES_COMPANY: `${baseUrlAPI}/api/Company/Image`,
+    WORKINGDAY: `${baseUrlAPI}/api/Company/WorkingDay`,
+    CULTUREMEDIA: `${baseUrlAPI}/api/Company/CultureMedia`,
+    // GET_PROFILE_COMPANY: `${baseUrlAPI}/api/Company/ProfileByTag`,
+    // GET_IMAGES_COMPANY: `${baseUrlAPI}/api/Company/ImageByTag`,
+    EDIT_MODE_UPDATE: `${baseUrlAPI}/api/Company/EditModeUpdate`,
+    EDIT_MODE_CREATE_DEPARTMENT: `${baseUrlAPI}/api/Company/EditModeCreateDepartment`,
+    EDIT_GET_DEPARTMENT: `${baseUrlAPI}/api/Company/EditModeGetDepartment`,
+    EDIT_MODE_DEPARTMENT_UPDATE: `${baseUrlAPI}/api/Company/EditModeUpdateDepartment`,
+    EDIT_MODE_GET_DEPARTMENTS: `${baseUrlAPI}/api/Company/EditModeGetDepartments`,
+    EDIT_MODE_CREATE_POSITION: `${baseUrlAPI}/api/Company/EditModeCreateDepartmentPosition`,
+    EDIT_GET_POSITION: `${baseUrlAPI}/api/Company/EditModeGetDepartmentPosition`,
+    EDIT_MODE_POSITION_UPDATE: `${baseUrlAPI}/api/Company/EditModeUpdateDepartmentPosition`,
+    EDIT_GET_COMMENTS: `${baseUrlAPI}/api/Company/EditModeGetDepartmentComments`,
+    EDIT_MODE_GET_DEPARTMENT_POSITIONS: `${baseUrlAPI}/api/Company/EditModeGetDepartmentPositions`,
+    EDIT_MODE_DEPARTMENT_DELETE: `${baseUrlAPI}/api/Company/EditModeDeleteDepartment`,
+    EDIT_MODE_POSITION_DELETE: `${baseUrlAPI}/api/Company/EditModeDeleteDepartmentPosition`,
+    EDIT_GET_CAMPAIGN_PRICE: `${baseUrlAPI}/api/Campaign/GetCampaignPrice`,
+    EDIT_CREATE_RECRUITMENT_CAMPAIGN: `${baseUrlAPI}/api/Campaign/CreateRecruitmentCampaign`,
+    EDIT_CLONE_DEPARMENT: `${baseUrlAPI}/api/Company/EditModeCloneDepartment`,
+    EDIT_GET_RECRUITMENT_DEPARMENT: `${baseUrlAPI}/api/Department/Recruitment`,
+    EDIT_CLONE_DEPARMENT_POSITION: `${baseUrlAPI}/api/Company/EditModeCloneDepartmentPosition`,
+    EDIT_MODE_DEACTIVATE_CAMPAIGN: `${baseUrlAPI}/api/Campaign/DeactivateCampaign`,
+    GET_ALL_FAQS: `${baseUrlAPI}/api/Company/GetAllFaqsv2`,
+    EDIT_GET_RECRUITMENT_CAMPAIGN: `${baseUrlAPI}/api/Company/RecruitmentCampaign`,
+    GET_INTERNAL_COURSE: `${baseUrlAPI}/api/CompanyCourse/GetAll`,
+    GET_DETAI_RECRUITMENT_CAMPAIGN: `${baseUrlAPI}/api/Campaign/GetRecruitmentCampaign`
+  },
+  EXAM: {
+    GET_ALL_TEST: `${baseUrlAPI}/api/Exam/GetAllTest`,
+    GET_EXAM_DETAIL: `${baseUrlAPI}/api/Exam/GetExamDetail`,
+    START_EXAM: `${baseUrlAPI}/api/Exam/StartExam`,
+    FINISH_EXAM: `${baseUrlAPI}/api/Exam/FinishExam`,
+    GET_RESULT: `${baseUrlAPI}/api/Exam/GetResult`,
+    GET_EXAM_BY_SKILL: `${baseUrlAPI}/api/Exam/GetExamBySkill`
+  },
+  EXAM_CAMPAIGN: {
+    GET_EXAM_CAMPAIGN_DETAIL: `${baseUrlAPI}/api/Exam/GetExamCampaignDetail`
+  },
+  CV: {
+    GET_ALL_RECRUITMENT: `${baseUrlAPI}/api/Company/RecruitmentCampaign`,
+    GET_ALL_CV: `${baseUrlAPI}/api/Campaign/GetAllPortfolios`,
+    INVITE_TO_CAMPAIGN: `${baseUrlAPI}/api/Campaign/InviteToCampaign`
+  },
+  COMPANYREPORT: {
+    DETAIL: `${baseUrlAPI}/api/CompanyReport/Detail`,
+    GENERAL: `${baseUrlAPI}/api/CompanyReport/General`,
+    GET_ALL_DEPARTMENT_POSITIONS: `${baseUrlAPI}/api/DepartmentPosition/GetAllDepartmentPositions`
+  },
+  JOURNEY: {
+    GET_MAP: `${baseUrlAPI}/api/UserJourney/get-journey-step`,
+    GET_SKILL: `${baseUrlAPI}/api/UserJourney/get-owned-skills`,
+    RELATED_JOBS: `${baseUrlAPI}/api/UserJourney/get-related-campaigns`,
+    GET_SUGGESTED_SKILLS: `${baseUrlAPI}/api/UserJourney/get-suggested-skills`,
+    GET_USER_JOBS: `${baseUrlAPI}/api/UserJourney/get-user-jobs`,
+    GET_RELATED_COURSE_BY_SKILL: `${baseUrlAPI}/api/UserJourney/get-related-courses-by-skill`,
+    GET_RELATED_BLOGS_BY_SKILL: `${baseUrlAPI}/api/UserJourney/get-related-blogs-by-skill`,
+    GET_SKILL_BY_JOBS: `${baseUrlAPI}/api/UserJourney/get-skills-by-jobs`,
+    GET_SKILL: `${baseUrlAPI}/api/UserJourney/get-owned-skills`,
+    GET_DOCUMENT_CATEGORIES: `${baseUrlAPI}/api/UserJourney/get-document-categories`,
+    GET_DOCUMENT: `${baseUrlAPI}/api/UserJourney/get-documents`,
+    GET_COMPETENCY_MATRIX: `${baseUrlAPI}/api/UserJourney/get-competency-matrix`,
+    GET_COMPETENCY_DETAIL: `${baseUrlAPI}/api/UserJourney/get-competency-detail`
+  }
+})

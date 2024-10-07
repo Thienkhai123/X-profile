@@ -1,0 +1,45 @@
+{
+  "loginSuccess": {
+    "title": "Tạo tài khoản thành công",
+    "description": "Chúc mừng bạn, X-Profile đã gửi thông tin tài khoản qua mail của bạn.\nTừ bây giờ, bạn có thể trải nghiệm các tính năng của X-Profile rồi!",
+    "buttonClick": "Tiếp tục sử dụng"
+  },
+  "loginError": {
+    "title": "Tạo tài khoản không thành công",
+    "description": "Thông tin bạn nhập không hợp lệ, vui lòng kiểm tra lại",
+    "buttonClick": "Thử lại"
+  },
+  "createPortfolioSuccess": {
+    "title": "Tạo hồ sơ thành công",
+    "description": "Bạn có thể sử dụng hồ sơ năng lực của mình để ứng tuyển các công việc hiện có trên X-Profile rồi đấy!",
+    "buttonClick": "Tiếp tục sử dụng"
+  },
+  "createPortfolioError": {
+    "title": "Tạo hồ sơ không thành công",
+    "description": "Thông tin mà bạn cập nhật chưa hợp lệ hoặc chưa đầy đủ. Hãy kiểm tra lại thông tin đã điền nhé!",
+    "buttonClick": "Quay lại chỉnh sửa"
+  },
+  "applyCVSuccess": {
+    "title": "Ứng tuyển thành công!",
+    "description": "Bạn sẽ nhận được thông báo khi nhà tuyển dụng phản hồi hồ sơ của bạn. Bạn có thể xem lại thông tin ứng tuyển của mình ở phần Công việc nhé.",
+    "buttonClick": "Chỉnh sửa hồ sơ",
+    "buttonCancel": "Quay lại trang trước"
+  },
+  "applyCVError": {
+    "title": "Ứng tuyển  không thành công",
+    "description": "Bạn đã ứng tuyển vị trí này!",
+    "buttonClick": "Làm bài test",
+    "buttonCancel": "Tôi biết rồi"
+  },
+  "notification": {
+    "title": "Bạn có thông báo mới",
+    "description": "Nhà tuyển dụng vừa gửi thông tin mới cho bạn.\nHãy kiểm tra thông báo để không bỏ lỡ tin tức mới nhé!",
+    "buttonClick": "Tôi biết rồi"
+  },
+  "message": {
+    "title": "Bạn có tin nhắn mới!",
+    "description": "Ai đó đã gửi tin nhắn cho bạn.\nHãy kiểm tra hộp tin nhắn của bạn để tránh bỏ lỡ những tin nhắn quan trọng nhé!",
+    "buttonClick": "Đến hộp tin",
+    "buttonCancel": "Tôi sẽ đọc sau"
+  }
+}

@@ -1,0 +1,46 @@
+trigger:
+- none
+
+resources:
+  repositories:
+  - repository: self
+    type: git
+    ref: refs/heads/dev
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    name: Default
+  steps:
+  - checkout: self
+    fetchDepth: 1
+  - task: Npm@1
+    displayName: npm install --force
+    inputs:
+      command: custom
+      verbose: false
+      customCommand: install --force
+  - task: Npm@1
+    displayName: npm run build
+    inputs:
+      command: custom
+      verbose: false
+      customCommand: run build
+  - task: CopyFiles@2
+    displayName: 'Copy Files to: source'
+    inputs:
+      SourceFolder: $(Pipeline.Workspace)\s
+      Contents: >-
+        src\**
+
+        .next\**
+
+        public\**
+      TargetFolder: $(Pipeline.Workspace)\d
+      CleanTargetFolder: true
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: XProfile FE Prod'
+    inputs:
+      PathtoPublish: $(Pipeline.Workspace)\d
+      ArtifactName: XProfile FE Prod
+...

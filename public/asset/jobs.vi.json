@@ -1,0 +1,37 @@
+{
+  "jobTitle": "Tìm kiếm việc làm",
+  "searchInputPlaceholder": "Tìm kiếm việc làm",
+  "cityDefault": "Tất cả",
+  "moreFilter": "Bộ lọc",
+  "searchButton": "Tìm kiếm",
+  "jobsCount": "việc làm",
+  "jobsCountIn": "ở",
+  "Priority": "Ưu tiên hiển thị",
+  "title": "Tìm kiếm công ty",
+  "titlePlaceholder": "Tìm kiếm việc làm",
+  "titleButton": "Tìm kiếm",
+  "titleAllSelect": "Tất cả",
+  "company": "công ty",
+  "titleOptionShow": "Ưu tiên hiển thị",
+  "filterBestList": [{ "title": "Phù hợp nhất" }],
+  "PRIOTIRY_DATA": [
+    { "id": 0, "name": "Phù hợp nhất" },
+    { "id": 1, "name": "Cập nhật gần nhất" },
+    { "id": 2, "name": "Lương cấp nhất" },
+    { "id": 3, "name": "Việc mới đăng" }
+  ],
+  "SETTING_TAB": [
+    {
+      "id": 1,
+      "logoSVG": "career",
+      "title": "Công việc",
+      "href": "#"
+    },
+    {
+      "id": 2,
+      "logoSVG": "company",
+      "title": "Công ty",
+      "href": "#"
+    }
+  ]
+}

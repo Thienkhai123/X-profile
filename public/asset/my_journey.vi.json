@@ -1,0 +1,84 @@
+{
+  "journeyAction": [
+    {
+      "id": 0,
+      "type": "understand-myself",
+      "title": "Hiểu bản thân",
+      "icon": "handHeart",
+      "href": "/my-journey/understand-myself"
+    },
+    {
+      "id": 1,
+      "type": "my-skill",
+      "title": "Kỹ năng của tôi",
+      "icon": "pin",
+      "href": "/my-journey/my-skill"
+    },
+    {
+      "id": 2,
+      "type": "skill-database",
+      "title": "Kho kỹ năng",
+      "icon": "documentQuiz",
+      "href": "/my-journey/skill-database"
+    }
+  ],
+  "journeyActionNew": [
+    {
+      "id": 0,
+      "type": "competencies-matrix",
+      "title": "Competencies Matrix",
+      "icon": "handHeart",
+      "href": "/my-journey/competencies-matrix"
+    },
+    {
+      "id": 1,
+      "type": "skills-hub",
+      "title": "Skills Hub",
+      "icon": "pin",
+      "href": "/my-journey/skills-hub"
+    },
+    {
+      "id": 2,
+      "type": "technical-portal",
+      "title": "Technical Portal",
+      "icon": "documentQuiz",
+      "href": "/my-journey/technical-portal"
+    },
+    {
+      "id": 3,
+      "type": "performance-endorse",
+      "title": "Performance Endorse",
+      "icon": "starsB2B",
+      "href": "/my-journey/performance-endorse"
+    },
+    {
+      "id": 4,
+      "type": "my-course",
+      "title": "My Course",
+      "icon": "bookBookmark",
+      "href": "/my-journey/my-course"
+    }
+  ],
+  "suggestList": [
+    {
+      "id": 0,
+      "name": "Kinh doanh",
+      "href": "/"
+    },
+    {
+      "id": 1,
+      "name": "Marketing",
+      "href": "/"
+    },
+    {
+      "id": 2,
+      "name": "Nhà văn",
+      "href": "/"
+    },
+    {
+      "id": 3,
+      "name": "Nhạc sĩ",
+      "href": "/"
+    }
+  ]
+}

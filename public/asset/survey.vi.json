@@ -1,0 +1,38 @@
+{
+  "titleHeader": "Khảo sát nhanh - X-Profile",
+  "decided": {
+    "titleBackButton": "Trở lại câu hỏi trước",
+    "titleButton": "Xem gợi ý phù hợp",
+    "title": "Tôi xác định",
+    "description": "Chọn một đáp án phù hợp nhất với bạn nhé!"
+  },
+  "Survey": {
+    "titleButton": "Tiếp tục",
+    "title": "Bạn là sinh viên thực tập hay người đi làm muốn đổi việc?",
+    "description": "Thực hiện bài khảo sát nhanh sau đây để X-Profile hỗ trợ bạn tốt hơn nhé!",
+    "layoutMouseBoss": {
+      "src": "/images/MouseProfile.png",
+      "alt": "mouseBoss",
+      "width": 323,
+      "height": 520.03
+    },
+    "layoutSheepBoss": {
+      "src": "/images/SheepProfile.png",
+      "alt": "sheepBoss",
+      "width": 299,
+      "height": 342
+    }
+  },
+  "QuestionMyWant": {
+    "titleBackButton": "Trở lại câu hỏi trước",
+    "titleButton": "Tiếp tục",
+    "title": "Tôi muốn",
+    "description": "Chọn đáp án dựa trên thứ tự ưu tiên của bạn nhé!"
+  },
+  "QuestionMyNeed": {
+    "titleBackButton": "Trở lại câu hỏi trước",
+    "titleButton": "Tiếp tục",
+    "title": "Tôi cần",
+    "description": "Chọn đáp án dựa trên thứ tự ưu tiên của bạn nhé!"
+  }
+}

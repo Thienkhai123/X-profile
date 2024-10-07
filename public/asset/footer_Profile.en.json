@@ -1,0 +1,27 @@
+{
+  "titleAddress": "Address",
+  "titlePhone": "Phone",
+  "titleEmail": "Email",
+  "socialConnect": [
+    {
+      "id": 0,
+      "href": "/",
+      "icon": "facebookFooter"
+    },
+    {
+      "id": 1,
+      "href": "/",
+      "icon": "youtubeFooter"
+    },
+    {
+      "id": 2,
+      "href": "/",
+      "icon": "twitterFooter"
+    },
+    {
+      "id": 3,
+      "href": "/",
+      "icon": "telegramFooter"
+    }
+  ]
+}

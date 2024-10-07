@@ -1,0 +1,85 @@
+{
+  "NAVIGATION_CONFIG": [
+    {
+      "title": "Home",
+      "passHref": false,
+      "href": "/",
+      "hrefList": ["/"],
+      "navbarList": []
+    },
+    {
+      "title": "Works",
+      "passHref": false,
+      "href": "/jobs",
+      "hrefList": ["/"],
+      "navbarList": []
+    },
+    {
+      "title": "Work Line",
+      "passHref": false,
+      "href": "/career-path/it",
+      "hrefList": ["/"],
+      "navbarList": []
+    },
+
+    {
+      "title": "Blog",
+      "passHref": true,
+      "href": "https://blog.xprofile.vn/",
+      "hrefList": ["/"],
+      "navbarList": []
+    }
+  ],
+  "NAVIGATION_COMPANY_CONFIG": [
+    {
+      "title": "Home",
+      "passHref": false,
+      "href": "/",
+      "hrefList": ["/"],
+      "navbarList": []
+    },
+    {
+      "title": "Profile Company",
+      "passHref": false,
+      "href": "/development",
+      "hrefList": ["/"],
+      "navbarList": []
+    },
+    {
+      "title": "Course",
+      "passHref": false,
+      "href": "/development",
+      "hrefList": ["/"],
+      "navbarList": []
+    },
+
+    {
+      "title": "Blog",
+      "passHref": true,
+      "href": "https://blog.xprofile.vn/",
+      "hrefList": ["/"],
+      "navbarList": []
+    }
+  ],
+  "SETTING_CONFIG": {
+    "logo": {
+      "backgroundColor": "bg-gray-900",
+      "logo": "logo",
+      "companyName": "Sai gon MIO",
+      "href": "/"
+    },
+    "info": {
+      "image": "/images/avatar.png"
+    },
+    "auth": {
+      "login": {
+        "title": "Sign in",
+        "href": "/sign-in"
+      },
+      "register": {
+        "title": "Sign up",
+        "href": "/sign-up"
+      }
+    }
+  }
+}

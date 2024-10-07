@@ -1,0 +1,56 @@
+{
+  "society": [
+    {
+      "icon": "facebook",
+      "href": "/"
+    },
+    {
+      "icon": "youtubeFooter",
+      "href": "/"
+    },
+    {
+      "icon": "twitter",
+      "href": "/"
+    },
+    {
+      "icon": "telegramFooter",
+      "href": "/"
+    }
+  ],
+  "information": {
+    "titleName": "Full name",
+    "titleLocation": "Application position",
+    "titleEmail": "Email",
+    "titlePhone": "Phone",
+    "titleField": "Field"
+  },
+  "titleButton": "Upload profile",
+  "titleHideButton": "Hide profile",
+  "block": {
+    "targetBlock": {
+      "title": "Career Objective",
+      "titleButton": "Add career"
+    },
+    "certificateBlock": {
+      "title": "Professional Certifications",
+      "titleButton": "Add certifications"
+    },
+    "skillBlock": {
+      "title": "Work Skills",
+      "titleButton": "Add Skill",
+      "testButton": "Take the test"
+    },
+    "AchievementBlock": {
+      "title": "Achievement",
+      "titleButton": "Add Achievement"
+    },
+    "ExperienceBlock": {
+      "title": "Experience works",
+      "titleButton": "Add experience"
+    },
+    "AnotherBlock": {
+      "title": "Another"
+    },
+    "addBlock": "Add Block"
+  }
+}
